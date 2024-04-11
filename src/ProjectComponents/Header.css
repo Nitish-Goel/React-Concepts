@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    position:sticky;
+    justify-content: center;
+    background-color: steelblue;
+    height: 55px;
+}
+.header > h1{
+    font-size: 3rem;
+    font-weight: 100;
+    padding-top: 2px;
+
+}

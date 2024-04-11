@@ -1,0 +1,33 @@
+.movie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.498);
+    color:black;
+    margin: 10px;
+
+    padding: 8px;
+    height: 350px;
+    width: 250px;
+    border: 1px solid;
+    
+}
+.movie > img {
+    object-fit:fill;
+    height: 84%;
+    width: 100%;
+}   
+.title{
+    font-size: 20px;
+    font-weight: 650;
+}
+.year{
+    font-size: 18px;
+    font-weight: 350 ;
+
+    
+}
+.movie:hover{
+    margin: 18px;
+    box-shadow: 0px 0px 0.9em 2px rgb(76, 5, 118);
+}
